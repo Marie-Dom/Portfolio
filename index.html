@@ -30,6 +30,11 @@
               </a>
             </li>
             <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>compétences
+              </a>
+            </li>
+            <li class="nav__item">
               <a href="#portfolio" class="nav__link">
                 <i class="uil uil-scenery nav__icon"></i>Portfolio
               </a>
@@ -73,42 +78,21 @@
               </a>
             </div>
             <div class="home__img">
-              <svg
-                class="home__blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home__blob-img"
-                    x="12"
-                    y="18"
-                    href="./assets/images/perfil.webp"
-                  />
-                </g>
-              </svg>
+              <img
+                src="./assets/images/logo/logo_transparent.png"
+                title="Amazing World of Code"
+                alt="logo"
+              />
             </div>
             <div class="home__data">
               <h1 class="home__title">Bonjour, je m'appelle Marie-Dominique</h1>
               <h3 class="home__subtitle">Développeuse Front-End</h3>
               <p class="home__description">
                 Je suis passionnée par mon métier car il me permet d'évoluer
-                sans cesse, à la découverte de nouvelles techniques...
+                sans cesse, à la découverte de nouvelles techniques... J'ai pu
+                enrichir mes compétences grâce à la formation suivie avec
+                OpenClassrooms qui m'a permis d'acquérir plus d'assurance dans
+                le domaine du Fron-End.
               </p>
               <a href="#contact" class="button button--flex">
                 Contactez-moi <i class="uil uil-message button__icon"></i>
@@ -126,8 +110,166 @@
       </section>
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about"></section>
-
+      <section class="about section" id="about">
+        <h2 class="section__title">A propos de moi</h2>
+        <span class="about__container container grid">
+          <img
+            src="./assets/images/logo/logo_transparent.png"
+            alt=""
+            class="about__img"
+          />
+        </span>
+        <div class="about__data">
+          <p class="about__description">Qui suis-je ?</p>
+        </div>
+        <div class="about__buttons">
+          <a
+            download=" "
+            href="./assets/CV/CV_DEVELOPPEUR_WEB_JAOUEN_MD.pdf"
+            class="button button--flex"
+          >
+            Télécharger mon CV <i class="uil uil-download-alt button__icon"></i>
+          </a>
+        </div>
+      </section>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Compétences</h2>
+        <span class="section__subtitle">Niveau technique</span>
+        <div class="skills__container container grid">
+          <div>
+            <!-- SKILL 1 -->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Développeuse Front-End</h1>
+                  <span class="skills__subtitle">9 mois</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">javaScript</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__javaScript"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SKILL 2 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Développeuse Back-End</h1>
+                  <span class="skills__subtitle">5 mois</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NODE JS</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__node"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">API REST</h3>
+                    <span class="skills__number">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__API"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">POSTMAN</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__postman"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__number">35%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__php"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SKILL 3 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-swatchbook skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Designer</h1>
+                  <span class="skills__subtitle">9 mois</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">FIGMA</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PHOTOSHOP</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__photoshop"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--==================== PORTFOLIO ====================-->
       <section class="portfolio section" id="portfolio"></section>
 
