@@ -20,7 +20,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i>Accueil
               </a>
             </li>
@@ -143,7 +143,7 @@
               <div class="skills__header">
                 <i class="uil uil-brackets-curly skills__icon"></i>
                 <div>
-                  <h1 class="skills__title">Développeuse Front-End</h1>
+                  <h1 class="skills__title">Développement Front-End</h1>
                   <span class="skills__subtitle">9 mois</span>
                 </div>
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -192,7 +192,7 @@
               <div class="skills__header">
                 <i class="uil uil-server-network skills__icon"></i>
                 <div>
-                  <h1 class="skills__title">Développeuse Back-End</h1>
+                  <h1 class="skills__title">Développement Back-End</h1>
                   <span class="skills__subtitle">5 mois</span>
                 </div>
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -271,7 +271,117 @@
         </div>
       </section>
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Mes projets</h2>
+        <span class="section__subtitle">Mes derniers projets</span>
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- PORTFOLIO 1 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/images/portfolio/ohMyFood.webp"
+                title="Oh My Food"
+                alt="Restaurant"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Projet 1 : Oh My Food</h3>
+                <p class="portfolio__description">
+                  Ma mission était de développer un site “mobile first”
+                  répertoriant les menus de restaurants gastronomiques en
+                  utilisant Sass et des animations.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Démo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+              <!-- PORFOLIO 2 -->
+              <img
+                src="./assets/images/portfolio/sophie-bluel.webp"
+                title="Sophie Bluel, Architecte"
+                alt="Sophie Bluel"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Projet 2 : Sophie Bluel, architecte d'intérieur
+                </h3>
+                <p class="portfolio__description">
+                  Conception d'un site portfolio d'une architecte d'intérieur en
+                  utilisant javaScript.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Démo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+              <!-- PORTFOLIO 3 -->
+              <img
+                src="./assets/images/portfolio/kasa.webp"
+                title="Kasa, Agence de location immobilière"
+                alt="Kasa porfolio"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Projet 3 : Kasa, agence de location immobilière
+                </h3>
+                <p class="portfolio__description">
+                  Ma mission était passer à une stack complète en JavaScript
+                  avec NodeJS côté back-end, et React côté front-end pour la
+                  refonte complète du site.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Démo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+              <!-- PORTFOLIO 4 -->
+              <img
+                src="./assets/images/portfolio/nina-carducci.webp"
+                title="Nina Carducci, photographe"
+                alt="Jeunes mariés dansant"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Projet 4 : Portfolio de Nina Carducci, photographe
+                </h3>
+                <p class="portfolio__description">
+                  Ma mission consistait à améliorer le référencement du site en
+                  optimisant sa performance (SEO).
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Démo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Ajout des chevrons droite et gauche -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Ajout de la pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact"></section>
