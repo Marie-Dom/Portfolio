@@ -48,6 +48,8 @@
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__buttons">
+          <!-- Theme pour changer les boutons -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -95,7 +97,7 @@
                 le domaine du Fron-End.
               </p>
               <a href="#contact" class="button button--flex">
-                Contactez-moi <i class="uil uil-message button__icon"></i>
+                Me contacter <i class="uil uil-message button__icon"></i>
               </a>
             </div>
           </div>
@@ -120,7 +122,44 @@
           />
         </span>
         <div class="about__data">
-          <p class="about__description">Qui suis-je ?</p>
+          <p class="about__description">
+            Je me présente : Marie-Dominique, développeuse web plus spécialisée
+            dans le Front-End.
+          </p>
+
+          <p class="about__description">
+            En effet, passionnée par l'informatique en général, et étant en
+            reconversion professionnelle, j'ai pu suivre la formation de
+            développeur et intégrateur web avec l'organisme de formation 100% en
+            distanciel, OpenClassrooms.
+          </p>
+          <p class="about__description">
+            Etant autodidacte et vraiment intéressée par ce domaine, j'ai
+            également suivi une formation via le site de SoloLearn où j'ai pu
+            acquérir les premières bases pour le HTML, le CSS, le javaScrip et
+            le Php.
+          </p>
+          <p class="about__description">
+            OpenClassrooms m'a permis de consolider ces bases ainsi que
+            d'enrichir mes connaissances pour créer des projets avec REACT,
+            SASS, NodeJs et Redux, mais aussi pour organiser et monter des
+            projets avec la méthode de travail AGILE, ainsi que l'optimisation
+            d'un site web pour le SEO.
+          </p>
+          <p class="about__description">
+            Ma motivation : participer à de nouveaux projets et apprendre de
+            nouvelles technologies.
+            <br />
+            N'hésitez pas à parcourir mon portfolio, vous y découvrirez quelques
+            projets que j'ai pu réaliser dans le cadre de ma formation. Je reste
+            à votre disposition si vous souhaitez en savoir plus, n'hésitez pas
+            à me contacter !
+          </p>
+          <div class="about__buttons">
+            <a href="#contact" class="button button--flex">
+              Me contacter <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
         </div>
         <div class="about__buttons">
           <a
@@ -292,14 +331,16 @@
                   utilisant Sass et des animations.
                 </p>
                 <a
-                  href="#"
+                  href="https://github.com/Marie-Dom/Project4"
                   class="button button--flex button--small portfolio__button"
                 >
-                  Démo
+                  Voir le Code
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
-              <!-- PORFOLIO 2 -->
+            </div>
+            <!-- PORFOLIO 2 -->
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="./assets/images/portfolio/sophie-bluel.webp"
                 title="Sophie Bluel, Architecte"
@@ -315,14 +356,16 @@
                   utilisant javaScript.
                 </p>
                 <a
-                  href="#"
+                  href="https://github.com/Marie-Dom/Portfolio-architecte-sophie-bluel"
                   class="button button--flex button--small portfolio__button"
                 >
-                  Démo
+                  Voir le Code
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
-              <!-- PORTFOLIO 3 -->
+            </div>
+            <!-- PORTFOLIO 3 -->
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="./assets/images/portfolio/kasa.webp"
                 title="Kasa, Agence de location immobilière"
@@ -339,14 +382,16 @@
                   refonte complète du site.
                 </p>
                 <a
-                  href="#"
+                  href="https://github.com/Marie-Dom/kasa"
                   class="button button--flex button--small portfolio__button"
                 >
-                  Démo
+                  Voir le Code
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
-              <!-- PORTFOLIO 4 -->
+            </div>
+            <!-- PORTFOLIO 4 -->
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="./assets/images/portfolio/nina-carducci.webp"
                 title="Nina Carducci, photographe"
@@ -362,10 +407,10 @@
                   optimisant sa performance (SEO).
                 </p>
                 <a
-                  href="#"
+                  href="https://github.com/Marie-Dom/ninacarducci.github.io"
                   class="button button--flex button--small portfolio__button"
                 >
-                  Démo
+                  Voir le Code
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
@@ -384,13 +429,104 @@
       </section>
 
       <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contactez-moi</h2>
+        <span class="section__subtitle">Entrez en contact</span>
+        <div class="contact__information">
+          <i class="uil uil-phone contact__icon"></i>
+          <div>
+            <h3 class="contact__title">Appelez-moi</h3>
+            <span class="contact__subtitle">+33 06.50.68.40.70</span>
+          </div>
+        </div>
+        <div class="contact__information">
+          <i class="uil uil-enveloppe contact__icon"></i>
+          <div>
+            <h3 class="contact__title">Adresse mail</h3>
+            <span class="contact__subtitle">md.friot@gmail.com</span>
+          </div>
+        </div>
+        <div class="contact__information">
+          <i class="uil uil-map-marker contact__icon"></i>
+          <div>
+            <h3 class="contact__title">Adresse postale</h3>
+            <span class="contact__subtitle"
+              >Lieu-dit Kerlann 29400 - Plounéventer FRANCE</span
+            >
+          </div>
+        </div>
+        <form action=" " class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="name" class="contact__label">Name</label>
+              <input type="text" class="contact__input" id="name" />
+            </div>
+            <div class="contact__content">
+              <label for="email" class="contact__label">Email</label>
+              <input type="text" class="contact__input" id="email" />
+            </div>
+            <div class="contact__content">
+              <label for="message" class="contact__label">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+            <div>
+              <a href="mail to: md.friot@gmail.com" class="button button__flex">
+                Envoyer
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </form>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h2 class="footer__title">Marie-Dominique</h2>
+            <span class="footer__subtitle">Développeuse Front-End</span>
+          </div>
+          <ul class="footer__links">
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Me contacter</a>
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <a
+              href="https://github.com/Marie-Dom"
+              target="_blank"
+              class="home__social-icon"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/marie-dominique-jaouen-34b999191"
+              target="_blank"
+              class="home__social-icon"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">&#169; MDJ.all rights reserved</p>
+      </div>
+    </footer>
 
-    <!--==================== SCROLL TOP ====================-->
+    <!--==================== SCROLL UP ====================-->
+    <a href="#" class="scroll up" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="./assets/javaScript/swiper-bundle.min.js"></script>
