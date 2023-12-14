@@ -1,3 +1,9 @@
+// // import Swiper bundle with all modules installed
+// import Swiper from "swiper/bundle";
+
+// // import styles bundle
+// import "swiper/css/bundle";
+
 const navMenu = document.getElementById("nav-menu");
 const navToggle = document.getElementById("nav-toggle");
 const navClose = document.getElementById("nav-close");
@@ -44,19 +50,19 @@ skillsHeader.forEach((el) => {
 
 // PORTFOLIO SWIPER
 
-const swiperPortfolio = new Swiper(".portfolio__container", {
-  cssMode: true,
-  loop: true,
-  direction: "vertical",
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+// const swiperPortfolio = new Swiper(".swiper-container");
+//   cssMode: true,
+//   loop: true,
+//   modules: [Navigation, Pagination],
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
 
 // SCROLL ACTIVE
 function scrollActive() {
